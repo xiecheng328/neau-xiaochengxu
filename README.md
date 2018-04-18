@@ -22,7 +22,7 @@
 * 开发工具下载： https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=2018413
 * 打开开发工具，创建小程序项目，选择项目路径，填入AppID,模板选择：建立腾讯云PHP启动模板，点击确定
 * 项目路径： client 客户端， server 服务端
-# 5、前后端技术栈
+# 5、前后端技术栈
 ![image](https://github.com/xiecheng328/md-img/blob/master/fe-be.png?raw=true) 
     
 > 20180418今天的任务：
