@@ -7,14 +7,6 @@ Page({
     
   },
 
-  handleTap:function(){
-      wx.showToast({
-          title: '你好，世界',
-          icon: 'success',
-          duration: 2000
-      })
-  },
-
   /**
    * 生命周期函数--监听页面加载
    */
