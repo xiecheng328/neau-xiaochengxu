@@ -11,6 +11,7 @@
 * 下载代码：phpstorm->check out from version control -> git -> 填写相应的url下载代码
 * 提交代码：vcs -> commit -> 勾选提交的文件，填写注释
 * 只有第一次需要checkeout，以后每次更新只需要vcs -> update就可以更新代码了
+* 添加项目组成员：创建好项目后，点击settings -> Collaborators -> 搜索框中搜索小伙伴的github账号，点击添加 -> 小伙伴收到邀请邮件，在邮件中点击确认就可以了
 # phpstorm
 * 开发工具
 * windows电脑上面，需要安装git.exe,
@@ -28,7 +29,7 @@
 ![image](https://github.com/xiecheng328/md-img/blob/master/fe-be.png?raw=true) 
     
 ```
-20180418今天的任务：
+20180418任务：
 1. 三个同学组队，讨论题目
 2. 注册微信小程序开发账号
 3. 下载并安装小程序开发工具
@@ -78,7 +79,7 @@
 ```
 
 ```
-20180419今天的任务：
+20180419任务：
 1. 熟悉小程序前端开发流程，把小程序前端页面的tab配置好
 2、根据w3school手册自学html、css、javascript基础知识
 ```    
