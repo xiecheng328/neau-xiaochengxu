@@ -1,6 +1,74 @@
-page {
-    background: #F6F6F6;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+page{
+  background: #F6F6F6;
+  color: #fff;
+}
+.header{
+  height: 300rpx;
+  background: #f03d37;
+  text-align: center;
+}
+
+.header-img{
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.header-name{
+  margin-top: 20rpx;
+}
+
+.order{
+  background: #fff;
+  margin-top: 20rpx;
+  color: #000;
+  text-align: center;
+}
+
+.job {
+  padding: 20rpx;
+  height: 160rpx;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: row;
+}
+
+.com-logo {
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.job-info {
+  flex: 1;
+}
+
+.job-title {
+  font-size: 30rpx;
+  display: block;
+  margin-bottom: 20rpx;
+}
+
+.com-name {
+  font-size: 17px;
+  color: #333;
+  display: block;
+  margin-bottom: 20rpx;
+}
+
+.city, .post-time {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.salary {
+  height: 100%;
+  font-size: 14px;
+  color: #f00;
+}
+
+.apply{
+  height: 60rpx;
+  font-size: 26rpx;
+  margin-top: 50rpx;
 }

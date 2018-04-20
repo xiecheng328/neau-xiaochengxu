@@ -84,4 +84,11 @@
 2、根据w3school手册自学html、css、javascript基础知识
 ```    
 
+```
+20180420任务：
+1、根据老师完成的前端页面功能，亲自实现一遍这些功能
+2、自学php的CI框架，地址：http://codeigniter.org.cn/
+3、继续学习微信的官方文档和w3school手册
+```
+
     

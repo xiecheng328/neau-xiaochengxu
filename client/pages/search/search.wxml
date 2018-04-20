@@ -1,4 +1,11 @@
+<!--index.wxml-->
 <view class="container">
-这是一个搜索页面
-
+      <view class='search'>
+        <input class='search-input' placeholder="请输入职位" auto-focus/>
+      </view>
+      <!-- <scroll-view>
+        <view wx:for="{{jobList}}">
+          {{index}}: {{item.name}}{{item.salary}}
+        </view>
+      </scroll-view> -->
 </view>

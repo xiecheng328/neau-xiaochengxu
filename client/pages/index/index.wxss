@@ -6,9 +6,30 @@ page {
     justify-content: flex-start;
 }
 
-.hw{
-    background: red;
-    color: white;
-    width: 100%;
+.job{
+  display: flex;
+  padding: 5rpx;
+  height: 160rpx;
+  border-bottom: 2rpx solid #ccc;
 }
 
+.job-img{
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 20rpx;
+}
+
+.job-info{
+  flex: 1;
+}
+
+.job-apply{
+  height: 60rpx;
+  font-size: 30rpx;
+  margin-top: 60rpx;
+  margin-left: 20rpx;
+}
+
+.job-salary{
+  color: #f00;
+}

@@ -1,5 +1,15 @@
 <view class='container'>
-  <view class="hw" bindtap="handleTap">Hello World！</view>
+  <view wx:for="{{jobList}}" class="job">
+    <image src="{{item.logo}}" class="job-img"></image>
+    <view class='job-info'>
+      <view>{{item.name}}</view>
+       
+      {{item.city}}
+      {{item.posttime}}发布
+      <view class="job-salary">¥{{item.salary}}/天</view>
+    </view>
+    <button type="warn" class='job-apply'>申请</button>
+  </view>
 
 
 

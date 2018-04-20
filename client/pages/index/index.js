@@ -4,7 +4,58 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    msg: 'Hello World123！',
+    jobList: [
+      {
+        logo: '../../images/baidu.jpg',
+        name: '百度',
+        city: '北京',
+        posttime: '2018-04-20',
+        salary: 100
+      }, {
+        logo: '../../images/alibaba.jpeg',
+        name: '阿里巴巴',
+        city: '杭州',
+        posttime: '2018-03-20',
+        salary: 150
+      }, {
+        logo: '../../images/baidu.jpg',
+        name: '百度',
+        city: '北京',
+        posttime: '2018-04-20',
+        salary: 100
+      }, {
+        logo: '../../images/alibaba.jpeg',
+        name: '阿里巴巴',
+        city: '杭州',
+        posttime: '2018-03-20',
+        salary: 150
+      }, {
+        logo: '../../images/baidu.jpg',
+        name: '百度',
+        city: '北京',
+        posttime: '2018-04-20',
+        salary: 100
+      }, {
+        logo: '../../images/alibaba.jpeg',
+        name: '阿里巴巴',
+        city: '杭州',
+        posttime: '2018-03-20',
+        salary: 150
+      }, {
+        logo: '../../images/baidu.jpg',
+        name: '百度',
+        city: '北京',
+        posttime: '2018-04-20',
+        salary: 100
+      }, {
+        logo: '../../images/alibaba.jpeg',
+        name: '阿里巴巴',
+        city: '杭州',
+        posttime: '2018-03-20',
+        salary: 150
+      }
+    ]
   },
 
   handleTap:function(){
