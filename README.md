@@ -91,4 +91,15 @@
 3、继续学习微信的官方文档和w3school手册
 ```
 
+# 数据库DB
+* mysql、sqlserver、oracle...
+* 主键
+* 外键
+
+# php
+* CI框架：http://codeigniter.org.cn/
+* MVC(model view controller)：模型、视图、控制器
+* Ajax:Asynchronous JavaScript and XML（异步的 JavaScript 和 XML）
+
+
     

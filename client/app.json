@@ -6,9 +6,9 @@
   ],
   "window": {
     "navigationBarTitleText": "唯创内推系统",
-    "navigationBarTextStyle": "#fff",
+    "navigationBarTextStyle": "white",
     "navigationBarBackgroundColor": "#e54847",
-    "backgroundColor": "#eeeeee",
+    "backgroundColor": "light",
     "backgroundTextStyle": "light"
   },
   "tabBar": {

@@ -6,55 +6,55 @@ Page({
   data: {
     msg: 'Hello World123！',
     jobList: [
-      {
-        logo: '../../images/baidu.jpg',
-        name: '百度',
-        city: '北京',
-        posttime: '2018-04-20',
-        salary: 100
-      }, {
-        logo: '../../images/alibaba.jpeg',
-        name: '阿里巴巴',
-        city: '杭州',
-        posttime: '2018-03-20',
-        salary: 150
-      }, {
-        logo: '../../images/baidu.jpg',
-        name: '百度',
-        city: '北京',
-        posttime: '2018-04-20',
-        salary: 100
-      }, {
-        logo: '../../images/alibaba.jpeg',
-        name: '阿里巴巴',
-        city: '杭州',
-        posttime: '2018-03-20',
-        salary: 150
-      }, {
-        logo: '../../images/baidu.jpg',
-        name: '百度',
-        city: '北京',
-        posttime: '2018-04-20',
-        salary: 100
-      }, {
-        logo: '../../images/alibaba.jpeg',
-        name: '阿里巴巴',
-        city: '杭州',
-        posttime: '2018-03-20',
-        salary: 150
-      }, {
-        logo: '../../images/baidu.jpg',
-        name: '百度',
-        city: '北京',
-        posttime: '2018-04-20',
-        salary: 100
-      }, {
-        logo: '../../images/alibaba.jpeg',
-        name: '阿里巴巴',
-        city: '杭州',
-        posttime: '2018-03-20',
-        salary: 150
-      }
+      // {
+      //   logo: '../../images/baidu.jpg',
+      //   name: '百度',
+      //   city: '北京',
+      //   posttime: '2018-04-20',
+      //   salary: 100
+      // }, {
+      //   logo: '../../images/alibaba.jpeg',
+      //   name: '阿里巴巴',
+      //   city: '杭州',
+      //   posttime: '2018-03-20',
+      //   salary: 150
+      // }, {
+      //   logo: '../../images/baidu.jpg',
+      //   name: '百度',
+      //   city: '北京',
+      //   posttime: '2018-04-20',
+      //   salary: 100
+      // }, {
+      //   logo: '../../images/alibaba.jpeg',
+      //   name: '阿里巴巴',
+      //   city: '杭州',
+      //   posttime: '2018-03-20',
+      //   salary: 150
+      // }, {
+      //   logo: '../../images/baidu.jpg',
+      //   name: '百度',
+      //   city: '北京',
+      //   posttime: '2018-04-20',
+      //   salary: 100
+      // }, {
+      //   logo: '../../images/alibaba.jpeg',
+      //   name: '阿里巴巴',
+      //   city: '杭州',
+      //   posttime: '2018-03-20',
+      //   salary: 150
+      // }, {
+      //   logo: '../../images/baidu.jpg',
+      //   name: '百度',
+      //   city: '北京',
+      //   posttime: '2018-04-20',
+      //   salary: 100
+      // }, {
+      //   logo: '../../images/alibaba.jpeg',
+      //   name: '阿里巴巴',
+      //   city: '杭州',
+      //   posttime: '2018-03-20',
+      //   salary: 150
+      // }
     ]
   },
 
@@ -70,7 +70,18 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+      wx.request({
+          url: 'https://cthmcof7.qcloud.la/index.php/job/get_job_list',
+          header: {
+              'content-type': 'application/json' // 默认值
+          },
+          success: res => {
+              // console.log(res)
+              this.setData({
+                  jobList: res.data
+              });
+          }
+      })
   },
 
   /**

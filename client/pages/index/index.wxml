@@ -1,6 +1,6 @@
 <view class='container'>
   <view wx:for="{{jobList}}" class="job">
-    <image src="{{item.logo}}" class="job-img"></image>
+    <image src="../../{{item.logo}}" class="job-img"></image>
     <view class='job-info'>
       <view>{{item.name}}</view>
        
