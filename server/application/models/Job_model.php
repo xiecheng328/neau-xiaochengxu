@@ -14,4 +14,12 @@ class Job_model extends CI_Model {
         return DB::select('t_job', ['*']);
     }
 
+    public function insert_apply($jobid, $userid)
+    {
+        return DB::insert('t_apply', [
+            'job_id' => $jobid,
+            'user_id' => $userid
+        ]);
+    }
+
 }

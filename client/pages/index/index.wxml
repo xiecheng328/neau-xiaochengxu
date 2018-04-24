@@ -8,7 +8,7 @@
       {{item.posttime}}发布
       <view class="job-salary">¥{{item.salary}}/天</view>
     </view>
-    <button type="warn" class='job-apply'>申请</button>
+    <button type="warn" data-jobid="{{item.job_id}}" class='job-apply' bindtap="apply">申请</button>
   </view>
 
 
